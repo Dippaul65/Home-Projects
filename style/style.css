@@ -1,0 +1,58 @@
+.Banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+width: 1080px;
+height: 490px;
+padding: 60px 80px;
+margin: 60px 0px;
+border-radius: 18px;
+background: rgb(198, 228, 214);
+}
+
+*{
+    font-family: "Fira Sans", serif;
+}
+.title{
+    color: rgba(14, 14, 14, 0.5);
+font-size: 20px;
+font-weight: 500;
+flex-direction: ;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin-bottom: 30px;
+}
+.Sub-title{
+position: static;
+width: 500px;
+height: 150px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+margin: 12px 0px;
+color: rgb(14, 14, 14);
+font-size: 48px;
+font-weight: bold;
+text-align: left;
+}
+.Btn-primary{
+    border-radius: 6px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+font-size: 14px;
+font-weight: bold;
+border: none;
+padding: 13px 26px 13px 26px;
+margin: 20px 0px;
+}
+button:hover{
+    background-color: rgb(13, 207, 13);
+}
+.img{
+width: 360px;
+height: 310px;
+margin: 0px 50px;
+}
