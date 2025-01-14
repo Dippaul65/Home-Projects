@@ -161,3 +161,38 @@ border: none;
 padding: 13px 26px 13px 26px;
 margin: 20px 0px;
 }
+
+                                                /*Recent News*/
+  .Article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+width: 1080px;
+height: 250px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 40px ;
+margin: 24px 0px;
+border-radius: 20px;
+background: rgb(236, 240, 241);
+box-shadow: 2px solid black;
+}   
+.Article img{
+    border-radius: 20px;
+}
+.Art-img{
+    width: 306px;
+    margin: 0px 24px;
+}
+.img2{
+    background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
+    width: 100px;
+    height: 30px;
+}
+
+.inline{
+   flex-direction: row;
+   display: inline;
+}
